@@ -1,4 +1,3 @@
-
 async function signupFormHandler(event) {
   event.preventDefault();
 
@@ -19,6 +18,7 @@ async function signupFormHandler(event) {
           document.location.replace('/dashboard');
       }
       else {
+        console.log(response);
           alert(response.statusText);
       }
     }

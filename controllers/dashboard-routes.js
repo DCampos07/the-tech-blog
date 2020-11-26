@@ -42,6 +42,7 @@ router.get('/', withAuth, (req, res) => {
 
 router.get('/create-post', withAuth, (req, res) => {
   res.render('create-post');
+  layout:"create-post"
 });
 
 router.get('/edit/:id', withAuth, (req, res) => {

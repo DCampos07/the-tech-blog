@@ -55,6 +55,7 @@ router.get('/:id', (req, res) => {
 
 // POST /api/users
 router.post('/', (req, res) => {
+    console.log("user creation started");
     User.create({
         username: req.body.username,
         password: req.body.password
@@ -68,7 +69,10 @@ router.post('/', (req, res) => {
       
           res.json(dbUserData);
         });
-      })
+      }).catch(err =>{
+          console.log(err);
+          res.status(500).json(err);
+      });
 });
 
 //login route
