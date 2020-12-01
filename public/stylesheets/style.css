@@ -7,15 +7,15 @@
     padding: 0;
     margin: 0;
     font-family: sans-serif;
-    color: #333;
+    color: rgb(252, 248, 248);
   }
   
-  a {
+  /* a {
     text-decoration: none;
-    color: #225ca3;
+    color: #22a34d;
     font-weight: bold;
     transition: color .1s;
-  }
+  } */
   
   a:hover {
     color: #3486eb;
@@ -49,7 +49,7 @@
   
   textarea:focus, input:focus {
     outline: none;
-    border: 1px solid #3486eb;
+    border: 1px solid #0a3569;
   }
   
   textarea {
@@ -73,14 +73,14 @@
     display: flex;
     flex-direction: column;
   }
-  
+/*   
   header {
     border-bottom: 1px solid #ccc;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 1%;
-  }
+  } */
   
   header h1 {
     font-size: 1em;
