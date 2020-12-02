@@ -1,178 +1,161 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  body, html {
-    height: 100%;
-    padding: 0;
-    margin: 0;
-    font-family: sans-serif;
-    color: rgb(252, 248, 248);
-  }
-  
-  a {
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  color: #333;
+  background-color: lightyellow;
+}
+
+header {
+   background-color: black;
+   color: lightyellow; 
+}
+
+nav {
+    padding-top: 20px;
+}
+
+h1 {
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    padding-left: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding-right: 40px;
+}
+
+li {
+    padding-bottom: 20px;
+}
+
+form {
+    margin: 0 40px;
+}
+
+.nav-links {
+    color: lightyellow;
     text-decoration: none;
-    color: #22a34d;
-    font-weight: bold;
-    transition: color .1s;
-  }
-  
-  a:hover {
-    color: #3486eb;
-  }
-  
-  button {
-    background-color: #225ca3;
-    border: 0;
-    padding: 1%;
-    color: white;
-    font-weight: bold;
-    transition: background-color .1s;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-  
-  button:hover {
-    background-color: #3486eb;
-  }
-  
-  .post-list {
-    margin: 0;
+    padding: 20px;
+}
+
+.post {
+    border: solid 2px black;
     padding: 0;
-  }
-  
-  textarea, input {
-    padding: .5%;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-  }
-  
-  textarea:focus, input:focus {
-    outline: none;
-    border: 1px solid #0a3569;
-  }
-  
-  textarea {
-    min-width: 40%;
-    min-height: 100px;
-  }
-  
-  form > div {
-    margin-bottom: 2%;
-  }
-  
-  form label {
-    display: block;
-  }
-  
-  .wrapper {
-    width: 100%;
-    min-height: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  header {
-    border-bottom: 1px solid #ccc;
+    margin: 0 40px;
+}
+
+.post a {
+    color: lightyellow;
+    text-decoration: none;
+}
+
+.comments {
+    padding-top: 20px;
+    margin: 0 40px;
+}
+
+.comment {
+  border: solid 2px black;
+  padding: 0;
+  margin: 0 40px 10px 40px;
+}
+
+.comment-content {
+  padding: 10px;
+}
+
+.comment-title {
+  background-color: black;
+  padding-top: 40px;
+}
+
+.comment-form {
+    padding-top: 20px;
+}
+
+.title {
+    background-color: black;
+    color: lightyellow;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 0 1%;
-  }
-  
-  header h1 {
-    font-size: 1em;
-  }
-  
-  main {
-    flex: 1;
-    padding: 2% 4%;
-  }
-  
-  .btn-no-style {
-    background: none;
-    border: none;
-    padding: 0;
-    cursor: pointer;
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+.title span {
+    font-size: 15px;
+}
+
+.title a {
     text-decoration: none;
-    color: #225ca3;
-    font-size: 100%;
-    font-weight: bold;
-    transition: color .1s;
-    margin-left: 16px;
-  }
-  
-  .btn-no-style:hover {
-    background: none;
-    color: #3486eb;
-  }
-  
-  .delete-post-btn {
-    background-color: #d41414;
-  }
-  
-  .delete-post-btn:hover {
-    background-color: #ff643d;
-  }
-  
-  .post {
-    margin-bottom: 2%;
-    line-height: 150%;
-  }
-  
-  .post .title span {
-    font-style: italic;
-    font-size: 90%;
-    color: #7d7d7d;
-  }
-  
-  .edit-link {
+    color: lightyellow;
+    font-size: 20px;
+}
+
+.post-content {
+    padding: 10px;
+}
+
+.form {
+    border: 2px solid black;
+}
+
+.form-content {
+    padding: 10px 10px 10px 10px;
+}
+
+.form-content div {
+    padding-bottom: 10px;
+}
+
+.form-content a {
+    text-decoration: none;
+}
+
+.form-content input {
     display: block;
-    margin: -1.5% 0 2% 0;
-  }
-  
-  .upvote-btn {
-    background-color: #197d0f;
-    transition: background-color .1s;
-  }
-  
-  .upvote-btn:hover {
-    background-color: #1f9c13;
-  }
-  
-  .comment-form {
-    margin-bottom: 5%;
-  }
-  
-  .comment {
-    padding: 1%;
-    margin-bottom: 1%;
-  }
-  
-  .comment:nth-child(odd) {
-    background-color: #fff5eb;
-  }
-  
-  .comment .meta {
-    font-size: 90%;
-    margin-bottom: .5%;
-    opacity: .6;
-  }
-  
-  .new-post-form input {
-    width: 300px;
-  }
-  
-  .edit-post-form {
-    margin-bottom: 5%;
-  }
-  
-  footer {
-    border-top: 1px solid #ccc;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.form-content button {
+    width: 100%;
+    background-color: grey;
+    color: white;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.form-content textarea {
+    width: 100%;
+}
+
+.new-post {
     display: flex;
     justify-content: center;
-    padding: 1%;
-    font-size: 110%;
-  }
+    padding-top: 20px;
+}
+
+.new-post button {
+    background-color: black;
+    color: lightyellow;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.user-posts {
+    list-style-type: none;
+    margin-right: 40px;
+}
