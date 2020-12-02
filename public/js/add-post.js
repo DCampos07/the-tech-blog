@@ -1,10 +1,10 @@
-async function newpostFormHandler(event) {
+async function postFormHandler(event) {
   event.preventDefault();
 
   const title = document.querySelector('#post-title').value;
   const content = document.querySelector('#content').value;
 
-  const response = await fetch(`/api/posts`, {
+  const response = await fetch('/api/posts', {
     method: 'POST',
     body: JSON.stringify({
       title,
@@ -20,7 +20,6 @@ async function newpostFormHandler(event) {
   } else {
     alert(response.statusText);
   }
-}
+};
 
-document.querySelector('.new-post-form').addEventListener('submit', newpostFormHandler);
-  
+document.querySelector('.new-post-form').addEventListener('submit', postFormHandler);
