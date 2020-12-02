@@ -43,7 +43,7 @@ The following dependencies are required in order to run this app.\
 
   
 <h2 id= "demo">Image</h2>
-![](/assets/screenshot.png)
+![Screenshot of the Application](screenshot.png?raw=true "Screenshot of the Application")
 
 
 
