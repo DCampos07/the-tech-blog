@@ -8,12 +8,12 @@ body, html {
   margin: 0;
   font-family: sans-serif;
   color: #333;
-  background-color: lightyellow;
+  background-color: white;
 }
 
 header {
    background-color: black;
-   color: lightyellow; 
+   color: white; 
 }
 
 nav {
@@ -43,7 +43,7 @@ form {
 }
 
 .nav-links {
-    color: lightyellow;
+    color: whitesmoke;
     text-decoration: none;
     padding: 20px;
 }
@@ -55,7 +55,7 @@ form {
 }
 
 .post a {
-    color: lightyellow;
+    color: whitesmoke;
     text-decoration: none;
 }
 
@@ -85,7 +85,7 @@ form {
 
 .title {
     background-color: black;
-    color: lightyellow;
+    color: whitesmoke;
     display: flex;
     justify-content: space-between;
     padding: 10px;
@@ -99,7 +99,7 @@ form {
 
 .title a {
     text-decoration: none;
-    color: lightyellow;
+    color: whitesmoke;
     font-size: 20px;
 }
 
@@ -149,7 +149,7 @@ form {
 
 .new-post button {
     background-color: black;
-    color: lightyellow;
+    color: whitesmoke;
     border-radius: 5px;
     padding: 10px 20px;
     font-size: 20px;
