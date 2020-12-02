@@ -3,7 +3,7 @@
 <img align="right" width="100" height="100" src="https://avatars0.githubusercontent.com/u/68753563?s=400&u=db8ed5c85d35601b1cace358ee79fa43b9f12676&v=4" alt="Github Profile Image"><hr>
 
 ## Live Link
-N/A
+https://mysterious-wildwood-70181.herokuapp.com/
 
 ## Contributors
 DCampos07
@@ -12,13 +12,13 @@ DCampos07
 <li><a href="#description">Description</a></li>  
 <li><a href="#installation">Installation</a></li> 
 <li><a href="#tech">Technology Stack</a></li> 
-<li><a href="#usage">Usage</a></li> 
-<li><a href="#demo">Demo</a></li> 
+<!-- <li><a href="#usage">Usage</a></li>  -->
+<li><a href="#demo">Image</a></li> 
 <li><a href="#contact">Contact</a></li> 
-<li><a href="#tests">Tests</a></li> 
+<!-- <li><a href="#tests">Tests</a></li>  -->
   
 <h2 id= "description">Description</h2>
-A CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well
+A CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well.
 
 <h2 id= "installation">Installation</h2>
 
@@ -29,9 +29,9 @@ The following dependencies are required in order to run this app.\
     
 <h2 id= "technology">Technology Stack</h2>
 
- Express.Js, MySql2, Sequelize, dotent, JavaScript, GIT, GitHub.
+ express-handlebars, MySql2, Sequelize, dotent package, bcrypt package, express-session, connect-session-sequelize, JavaScript, GIT, GitHub, Heroku.
   
-<h2 id= "usage">Usage</h2>
+<!-- <h2 id= "usage">Usage</h2>
 
  In order to run this application you would need to install MySQL in your environment. \
  Then, from the project root folder enter the sql shell and run the following command: \
@@ -39,15 +39,12 @@ The following dependencies are required in order to run this app.\
  Exit the sql shell and return to the command line still within your root project folder. \
  Run the following commands:\
  `npm run seed`\
- `npm start`
+ `npm start` -->
 
   
-<h2 id= "demo">Demo</h2>
+<h2 id= "demo">Image</h2>
+![](/assets/screenshot.png)
 
-<img src="https://github.com/DCampos07/online-store/blob/main/Develop/Assets/get%20all.gif" alt="gif video of app">
-<img src="https://github.com/DCampos07/online-store/blob/main/Develop/Assets/categories_post_put_delete.gif" alt="gif video of categories model">
-<img src="https://github.com/DCampos07/online-store/blob/main/Develop/Assets/products_post_put_delete.gif" alt="gif video of products model">
-<img src="https://github.com/DCampos07/online-store/blob/main/Develop/Assets/tags_post_put_delete.gif" alt="gif video of tags model">
 
 
 <h2 id= "contact">Contact</h2>
@@ -59,11 +56,11 @@ The following dependencies are required in order to run this app.\
 <li>LinkedIn: https://www.linkedin.com/in/damaris-c-870a1472/</li> 
 
     
-<h2 id= "tests">Tests</h2>
+<!-- <h2 id= "tests">Tests</h2>
 
 <li>Please use the following link to view the GET ALL ROUTES application demo video:(https://drive.google.com/file/d/1iFNDr1bIfXARgqqRH3AskacCdKPU81Iv/view?usp=sharing)</li>
 <li>Please use the following link to view the CATEGORIES Post, Put, and Delete application demo video:(https://drive.google.com/file/d/1cBIGWne8g1QWaX1mVS8WqEqA_SWXieGk/view?usp=sharing)</li>
 <li>Please use the following link to view the PRODUCTS Post, Put, and Delete application demo video:https://drive.google.com/file/d/1l3yYm_8WCwbPnv-lOgzbr1igZPMELxuN/view?usp=sharing)</li>
-<li>Please use the following link to view the TAGS Post, Put, and Delete application demo video:https://drive.google.com/file/d/1pN3ImPKRg86f5X2TQOKwARH2IJ0HSCB-/view?usp=sharing)</li>
+<li>Please use the following link to view the TAGS Post, Put, and Delete application demo video:https://drive.google.com/file/d/1pN3ImPKRg86f5X2TQOKwARH2IJ0HSCB-/view?usp=sharing)</li> -->
 
 
