@@ -1,9 +1,10 @@
-<div class="card">
-    <div class="card-header bg-dark">
-       <h4><a class="dashboard-link" href="/post/{{id}}">{{title}}</a></h4>
-        <p>Posted by {{user.username}} on {{format_date created_at}}</p>
+<div class="post">
+    <div class="title">
+        <a href="/post/{{id}}">{{title}}</a>
+        <span>Posted by {{user.username}} on {{format_date created_at}}</span>
     </div>
-    <div class="card-body">
-        <p>{{content}}</p>
+
+    <div class="post-content">
+        {{content}}
     </div>
 </div>

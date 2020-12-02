@@ -1,21 +1,24 @@
-<div class="card">
-    <div class="card-header bg-dark">
-        <h3>Create New Post</h3>
-    </div>
-    <div class="card-body">
-        <form class="new-post-form">
-            <div class="form-group">
-                <label for="post-title">Title</label>
-                <input type="text" id="post-title" class="form-control" />
+<form class="new-post-form">
+    <div class="form">
+        <div class="title">
+            Create New Post
+        </div>
+
+        <div class="form-content">
+            <div>
+                <label for="newpost-title">Title</label>
+                <input type="text" id="newpost-title" />
             </div>
-            <div class="form-group">
-                <label for="content">Content</label>
-                <textarea id="content" class="form-control" rows="4"></textarea>
+            <div>
+                <label for="newpost-content">Content</label>
+                <input type="text" id="newpost-content" />
             </div>
 
-            <button type="submit" class="btn text-light bg-secondary btn-block">Create</button>
-        </form>
+            <div>
+                <button type="submit">Create</button>
+            </div>
+        </div>
     </div>
-</div>
+</form>
 
-<script src="/js/add-post.js"></script>
+<script src="/javascript/add-post.js"></script>
