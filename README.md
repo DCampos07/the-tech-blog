@@ -1,4 +1,4 @@
-# Employee-Manager
+# The Tech Blog
 <img align="left" src="https://img.shields.io/badge/License-MIT-green" alt="license">
 <img align="right" width="100" height="100" src="https://avatars0.githubusercontent.com/u/68753563?s=400&u=db8ed5c85d35601b1cace358ee79fa43b9f12676&v=4" alt="Github Profile Image"><hr>
 
@@ -28,8 +28,16 @@ The following dependencies are required in order to run this app.\
 `npm install dotenv`
     
 <h2 id= "technology">Technology Stack</h2>
-
- express-handlebars, MySql2, Sequelize, dotent package, bcrypt package, express-session, connect-session-sequelize, JavaScript, GIT, GitHub, Heroku.
+<li>express-handlebars</li>
+<li>MySql2</li>
+<li>Sequelize</li>
+<li>dotent package</li>
+<li>bcrypt package</li>
+<li>express-session</li>
+<li>JavaScript</li>
+<li>GIT</li>
+<li>GitHub</li>
+<li>Heroku</li>
   
 <!-- <h2 id= "usage">Usage</h2>
 
@@ -62,5 +70,3 @@ The following dependencies are required in order to run this app.\
 <li>Please use the following link to view the CATEGORIES Post, Put, and Delete application demo video:(https://drive.google.com/file/d/1cBIGWne8g1QWaX1mVS8WqEqA_SWXieGk/view?usp=sharing)</li>
 <li>Please use the following link to view the PRODUCTS Post, Put, and Delete application demo video:https://drive.google.com/file/d/1l3yYm_8WCwbPnv-lOgzbr1igZPMELxuN/view?usp=sharing)</li>
 <li>Please use the following link to view the TAGS Post, Put, and Delete application demo video:https://drive.google.com/file/d/1pN3ImPKRg86f5X2TQOKwARH2IJ0HSCB-/view?usp=sharing)</li> -->
-
-
