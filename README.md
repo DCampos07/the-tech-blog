@@ -43,7 +43,7 @@ The following dependencies are required in order to run this app.\
 
   
 <h2 id= "demo">Image</h2>
-<img src="/assets/screenshot.png"/>
+<img src="./screenshot.png"/>
 
 
 <h2 id= "contact">Contact</h2>
