@@ -44,7 +44,8 @@ The following dependencies are required in order to run this app.\
   
 <h2 id= "demo">Image</h2>
 <img src="./screenshot.png"/>
-
+<img src="./tech.blog.gif"/>
+<iframe src="https://drive.google.com/file/d/1AYDhtIkuhbhlv1WpDcowP6NPcJ1iuMNd/preview" width="640" height="480"></iframe>
 
 <h2 id= "contact">Contact</h2>
 
